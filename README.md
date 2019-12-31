@@ -1,2 +1,2 @@
-# C-_Algo
+# Sol_Algo
 C++ algorithm 
