@@ -1,20 +1,27 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
+
+int sugarCal(int sugar)
+{
+    int box = 0;
+    while(true)
+    {
+        if(sugar % 5 == 0)
+        {
+            box += sugar / 5;
+            
+        }
+    }
+    return box;
+}
 int main(){
-    // 3, 5
+
     int sugar;
-    int cnt_3, cnt_5;
 
     cin >> sugar;
 
-    while(sugar < 3){
-        if(sugar % 5 == 0){
-            sugar -= 5;
-            cnt_5 += 1;
-        }
-        else 
-    }
+    cout << sugarCal(sugar) << endl;
 
     return 0;
 }
